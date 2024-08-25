@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+      
+    </header>
+    <main>
+            <div class="logo">
+               <img src="assets/Frame 6.png" alt="Logo Alura"> 
+            </div>
+
+            <div class="input__mensaje">
+                <div class="mensaje__contenedor">
+                    <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui" ></textarea>
+                    <div class="button">
+                        <small> <img src="assets/exclamation.png" alt="exclamation"> Solo letras minúsculas y sin acentos</small>
+                        <div class="buttons">
+                            <button id="btn-encriptar" class="boton-encriptar" onclick="botonEncriptar()"> Encriptar </button>             
+                            <button class="boton-desencriptar" onclick="botonDesencriptar()" > Desencriptar </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resultado__mensaje">
+                <div class="resultado">
+                
+                    <div id="no-mostar" class="resultado__no__encontrado">
+                        <img src="assets/Muñeco.png" alt="No encontrado">
+                        <h2>Ningún mensaje fue encontrado</h2> 
+                        <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                    </div>
+
+                    <div id="mostar" class="resultado__encontrado">
+                        <textarea class="mensaje" cols="20" rows="10"  readonly></textarea>
+                        <button class="boton-copiar" onclick="copiarResultado()"> Copiar </button>
+                    </div>
+
+                </div>
+
+            </div>
+           
+
+        </main>
+
+        <footer>
+            <div class="caja__datos">
+                <small class="datos" >Desarrollado por Daniel Olivares</small> 
+             </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+
+    
+    </html>
+
+
+
+
+            
+          
+        
+       
+
+     
+            
+            
+        
+
+ 
