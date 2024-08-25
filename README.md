@@ -6,7 +6,7 @@ Elementos principales del proyecto:
 - Un botón para encriptar
 - Un botón para desencriptar
 - Área para mostrar el texto encriptado/desencriptado.
-- Un botón para copiar tecto
+- Un botón para copiar texto
 - Areas responsibas 
 
 
